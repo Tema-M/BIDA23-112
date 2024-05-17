@@ -173,58 +173,44 @@ body{
 }
 
 
-.container form{
+.container{
+  background: #f2603f;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+label{
+  display: block;
+  margin: 10px 0 5px;
+  color: #9b3922;
+  font-size: 24px;
+}
+input,textarea{
   width: 100%;
-  text-align: center;
-  padding: 25px 20px;
-
-}
-form h1{
-  padding: 10px 0;
-}
-form .id{
-  position: relative;
-}
-
-.id{
-  position: absolute;
-  font-size: 20px;
-}
-
-form input{
-  width: 100%;
-  height: 50px;
-  margin: 4px 0;
-  border: 1px solid #0c0c0c;
-  border-radius: 3px;
-  background: #9b382257;
-  padding: 0 15px;
-  font-size: 20px;
-  align-items: center;
-}
-form textarea{
-  padding: 5px 15px;
+  height: 110px;
+  padding: 10px;
+  margin-bottom: 10px;
   border: 10px solid #0c0c0c;
-  border-radius: 3px;
-  background:#fff;
-  width: 100%;
-  margin: 4px;
-  color: whitesmoke;
+  border-radius: 4px;
 }
-form button{
-  margin-top: 5px;
+button{
+  width: 100%;
+  padding: 10px;
+  background: #9b3922;
   border: none;
-  background:#f2603fd5;
-  color: whitesmoke;
-  padding: 10px 0;
-  width: 100%;
-  font-weight: bolder;
-  font-size: 20px;
+  border-radius: 8px;
+  color: #f2613f;
+  font-size: 15px;
   cursor: pointer;
-  border-radius: 20pxS;
   
 }
-
-
-
-  
+  button:hover{
+    background: #0c0c0c;
+  }
+  .hidden{
+    display: none;
+  }
+  #thankyoumessage{
+    color: #9b3922;
+  }
